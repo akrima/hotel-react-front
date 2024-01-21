@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Ajoutez cette règle de style CSS */
+.room-card-img {
+  max-height: 300px; /* Modifiez cette valeur en fonction de vos besoins */
+  object-fit: cover; /* Ajuste le comportement de l'image pour remplir la boîte tout en conservant les proportions */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.fa-icon{
+    color: green; /* Couleur personnalisée */
+    font-size: 1em; /* Taille de police personnalisée */
 }
